@@ -1,0 +1,23 @@
+name: Deploy API
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+      
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy to server
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: ${{ secrets.PORT }}
+          key: ${{ secrets.SSHKEY }}
+          script: "cd subdomain/thegadget.artanode.com && git pull && composer install && php artisan key:generate && php artisan storage:link && php artisan db:seed --class=SqlFileSeeder && cd && cd subdomain/thegadget.artanode.com/public && unzip -o public.zip"
