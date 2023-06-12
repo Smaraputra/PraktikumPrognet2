@@ -8,7 +8,7 @@
 	<link rel="icon" href="{{ asset('thewayshop/images/favicon.ico') }}" type="image/png" />
 	<meta name="generator" content="">
 
-	<title>TheGADGET 2</title>
+	<title>The Gadget</title>
 
 	<link href="{{ asset('scorilo/css/bootstrap.min.css') }}" rel="stylesheet">
 	<link href="{{ asset('scorilo/css/style.css') }}" rel="stylesheet">

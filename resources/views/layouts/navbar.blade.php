@@ -8,7 +8,7 @@
         <i class="fa fa-bars"></i>
         <span class="sr-only">Toggle navigation</span>
         </button>
-        <a href="/" class="navbar-brand brand">TheGADGET 2</a>
+        <a href="/" class="navbar-brand brand">The Gadget</a>
       </div>
       <div id="navbar-collapse-02" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -83,7 +83,7 @@
 						Welcome To
 					</div>
 					<div class="subtext-image" data-scrollreveal="enter bottom over 1.7s after 0.3s">
-						TheGADGET 2
+						The Gadget
 					</div>
 				</div>
 			</div>

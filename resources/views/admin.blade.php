@@ -32,7 +32,7 @@
         Tip 2: you can also add an image using data-image tag
     -->
       <div class="logo"><a href="" class="simple-text logo-normal">
-          THEGADGET2
+          The Gadget
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
@@ -42,12 +42,12 @@
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="nav-item ">
+          {{-- <li class="nav-item ">
             <a class="nav-link" href="#">
               <i class="material-icons">person</i>
               <p>User Profile</p>
             </a>
-          </li>
+          </li> --}}
           <li class="nav-item ">
             <a class="nav-link" href="/admin/courier">
               <i class="material-icons">
@@ -104,7 +104,7 @@
             <span class="navbar-toggler-icon icon-bar"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end">
-            <form class="navbar-form">
+            {{-- <form class="navbar-form">
               <div class="input-group no-border">
                 <input type="text" value="" class="form-control" placeholder="Search...">
                 <button type="submit" class="btn btn-white btn-round btn-just-icon">
@@ -112,17 +112,17 @@
                   <div class="ripple-container"></div>
                 </button>
               </div>
-            </form>
+            </form> --}}
             <ul class="navbar-nav">
-              <li class="nav-item">
+              {{-- <li class="nav-item">
                 <a class="nav-link" href="javascript:;">
                   <i class="material-icons">dashboard</i>
                   <p class="d-lg-none d-md-block">
                     Stats
                   </p>
                 </a>
-              </li>
-              <li class="nav-item dropdown">
+              </li> --}}
+              {{-- <li class="nav-item dropdown">
                 <a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="material-icons">notifications</i>
                   @if ($notif->count() != 0)            
@@ -138,7 +138,7 @@
                   </p>
                 </a>
                 
-              </li>
+              </li> --}}
               <li class="nav-item dropdown">
                 <a class="nav-link" href="javascript:;" id="navbarDropdownProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="material-icons">person</i>
@@ -165,7 +165,7 @@
       </div>
       <footer class="footer">
         <div class="container-fluid">
-          <nav class="float-left">
+          {{-- <nav class="float-left">
             <ul>
               <li>
                 <a href="https://www.creative-tim.com">
@@ -195,7 +195,7 @@
               document.write(new Date().getFullYear())
             </script>, made with <i class="material-icons">favorite</i> by
             <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
-          </div>
+          </div> --}}
         </div>
       </footer>
     </div>

@@ -3,6 +3,9 @@
 @section('content')
 <div class="container">
     <div class="row justtify-content-center">
+        <div class="col-md-3">
+
+        </div>
         <div class="col-md-6 align-items-center justify-content">
             <div class="card bg-light" style="margin:5px;border:10px;align:center;">
                 <div class="card-header text-center">
@@ -67,6 +70,9 @@
                     </form>
                 </div>
             </div>
+        </div>
+        <div class="col-md-3">
+            
         </div>
     </div>
 </div>
